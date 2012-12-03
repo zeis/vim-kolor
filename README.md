@@ -1,4 +1,0 @@
-kolor
-=====
-
-Vim Color Scheme
