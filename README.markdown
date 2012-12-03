@@ -1,28 +1,32 @@
 Kolor
 =====
 
-## Description
-
 Colorful Vim color scheme with 256 color terminal support.
 
-Designed to have high text readability and optimal visibility of every element, and to be eye confortable as well.
+Designed to have high text readability and optimal visibility for all elements, and to be eye confortable as well.
 
 ## Installation
 
-Copy kolor.vim to ~/.vim/colors (on Windows <your-vim-dir>\vimfiles\colors).
+Copy `kolor.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`).
 
-Then add the line "colorscheme kolor" in your vimrc file, and restart Vim.
+Then add the line `colorscheme kolor` in your `vimrc` file, and restart Vim.
 
 If you use Pathogen, the directory structure is compatible.
 
 ## Donations
 
-If you want to make a donation, rather, consider to help those Uganda children on Vim's website.
+If you want to make a donation, rather, consider to help the Uganda children on Vim's website.
 
 This color scheme is dedicated to them.
 
+## Self-promotion
+
+If you like `kolor.vim` follow the GitHub [repository][repository], and don't forget to vote for it on Vim.org! ([vimscript #4339][script]).
+
 ## Screenshots
 
-![][kolor-screenshot]
+![][screenshot]
 
-[kolor-screenshot]: http://farm9.staticflickr.com/8198/8242050586_f0b23a63ed_b.jpg
+[script]: http://www.vim.org/scripts/script.php?script_id=4339
+[repository]: https://github.com/zeis/kolor
+[screenshot]: http://farm9.staticflickr.com/8198/8242050586_f0b23a63ed_b.jpg
