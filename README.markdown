@@ -21,6 +21,8 @@ If you want to make a donation, rather, consider to help those Uganda children o
 
 This color scheme is dedicated to them.
 
+## Screenshots
+
 ![][kolor-screenshot]
 
 [kolor-screenshot]: http://farm9.staticflickr.com/8198/8242050586_f0b23a63ed_b.jpg
