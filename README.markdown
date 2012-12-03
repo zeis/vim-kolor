@@ -3,7 +3,7 @@ Kolor
 
 Colorful Vim color scheme with 256 color terminal support.
 
-Designed to have high text readability and optimal visibility for all elements, and to be eye confortable as well.
+Designed to have high text readability and optimal visibility of every element, and to be eye comfortable as well.
 
 ## Installation
 

@@ -26,7 +26,7 @@
 " --------------------------------------------------------------------------
 " Colorful Vim color scheme with 256 color terminal support.
 " Designed to have high text readability and optimal visibility of every
-" element, and to be eye confortable as well.
+" element, and to be eye comfortable as well.
 "
 " --------------------------------------------------------------------------
 " INSTALLATION
@@ -38,8 +38,8 @@
 " --------------------------------------------------------------------------
 " DONATIONS
 " --------------------------------------------------------------------------
-" If you want to make a donation, rather, consider to help those Uganda
-" children on Vim's website.
+" If you want to make a donation, rather, consider to help the Uganda children
+" on Vim's website.
 " This color scheme is dedicated to them.
 
 
