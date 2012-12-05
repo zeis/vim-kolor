@@ -7,7 +7,7 @@ Designed to have high text readability and optimal visibility of every element, 
 
 ## Installation
 
-Copy `kolor.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`
+Just copy `kolor.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
 
 Then add the line `colorscheme kolor` in your `vimrc` file, and restart Vim.
 
