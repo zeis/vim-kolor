@@ -17,7 +17,7 @@
 "
 " Name: Kolor
 " Author: Alessandro Di Martino
-" Version: 1.1.0
+" Version: 1.2.0
 " URL: https://github.com/zeis/kolor
 " License: MIT License (see end of this file)
 "
@@ -52,7 +52,7 @@ let g:colors_name='kolor'
 
 highlight Normal          guifg=#c6c6c6    guibg=#2e2d2b    gui=none
 highlight SpecialKey      guifg=#87afff    guibg=NONE       gui=none
-highlight NonText         guifg=#87afff    guibg=#242322    gui=none
+highlight NonText         guifg=#87afff    guibg=#2e2d2b    gui=none
 highlight Directory       guifg=#e6987a    guibg=NONE       gui=none
 highlight ErrorMsg        guifg=#d9738d    guibg=NONE       gui=bold
 highlight IncSearch       guifg=#000000    guibg=#ff5fd7    gui=none
@@ -88,7 +88,7 @@ highlight PmenuSbar       guifg=#ff5fd7    guibg=#262626    gui=none
 highlight PmenuSbar       guifg=#ff5fd7    guibg=#2e2d2b    gui=none
 highlight PmenuThumb      guifg=#2e2d2b    guibg=#ff5fd7    gui=none
 highlight TabLine         guifg=#808080    guibg=#242322    gui=none
-highlight TablineSel      guifg=#000000    guibg=#87afff    gui=none
+highlight TablineSel      guifg=#000000    guibg=#808080    gui=none
 highlight TablineFill     guifg=#808080    guibg=#242322    gui=none
 highlight CursorColumn    guifg=NONE       guibg=#3b3a37    gui=none
 highlight CursorLine      guifg=NONE       guibg=#3b3a37    gui=none
@@ -114,7 +114,7 @@ highlight Keyword         guifg=#d9738d    guibg=NONE       gui=bold
 if &t_Co > 255
   highlight Normal          ctermfg=251     ctermbg=235     cterm=none
   highlight SpecialKey      ctermfg=111     ctermbg=none    cterm=none
-  highlight NonText         ctermfg=111     ctermbg=234     cterm=none
+  highlight NonText         ctermfg=111     ctermbg=235     cterm=none
   highlight Directory       ctermfg=180     ctermbg=none    cterm=none
   highlight ErrorMsg        ctermfg=168     ctermbg=none    cterm=bold
   highlight IncSearch       ctermfg=0       ctermbg=206     cterm=none
@@ -144,13 +144,13 @@ if &t_Co > 255
   highlight SpellCap        ctermfg=80      ctermbg=none    cterm=underline
   highlight SpellRare       ctermfg=121     ctermbg=none    cterm=underline
   highlight SpellLocal      ctermfg=186     ctermbg=none    cterm=underline
-  highlight Pmenu           ctermfg=251     ctermbg=2340    cterm=none
+  highlight Pmenu           ctermfg=251     ctermbg=234     cterm=none
   highlight PmenuSel        ctermfg=0       ctermbg=111     cterm=none
   highlight PmenuSbar       ctermfg=206     ctermbg=235     cterm=none
   highlight PmenuThumb      ctermfg=235     ctermbg=206     cterm=none
   highlight TabLine         ctermfg=244     ctermbg=234     cterm=none
-  highlight TablineSel      ctermfg=0       ctermbg=111     cterm=none
-  highlight TablineFill     ctermfg=244     ctermbg=2340    cterm=none
+  highlight TablineSel      ctermfg=0       ctermbg=244     cterm=none
+  highlight TablineFill     ctermfg=244     ctermbg=234     cterm=none
   highlight CursorColumn    ctermfg=none    ctermbg=236     cterm=none
   highlight CursorLine      ctermfg=none    ctermbg=236     cterm=none
   highlight ColorColumn     ctermfg=none    ctermbg=236     cterm=none

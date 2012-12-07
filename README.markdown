@@ -29,4 +29,4 @@ If you like `kolor.vim` follow the GitHub [repository][repository], and don't fo
 
 [script]: http://www.vim.org/scripts/script.php?script_id=4339
 [repository]: https://github.com/zeis/kolor
-[screenshot]: http://farm9.staticflickr.com/8198/8242050586_f0b23a63ed_b.jpg
+[screenshot]: http://farm9.staticflickr.com/8486/8252607180_4106732025_b.jpg
