@@ -18,7 +18,7 @@
 " Name: Kolor
 " Author: Alessandro Di Martino
 " Version: 1.2.0
-" URL: https://github.com/zeis/kolor
+" URL: https://github.com/zeis/vim-kolor
 " License: MIT License (see end of this file)
 "
 " --------------------------------------------------------------------------
