@@ -1,5 +1,5 @@
-Kolor
-=====
+Kolor - Vim Theme
+=================
 
 Colorful Vim color scheme with 256 color terminal support.
 
@@ -29,4 +29,8 @@ If you like `kolor.vim` follow the GitHub [repository][repository], and don't fo
 
 [script]: http://www.vim.org/scripts/script.php?script_id=4339
 [repository]: https://github.com/zeis/vim-kolor
-[screenshot]: http://farm9.staticflickr.com/8486/8252607180_4106732025_b.jpg
+[screenshot]: https://lh5.googleusercontent.com/-z7CGCLXhTNQ/UM-4XPy52fI/AAAAAAAAAHo/iCFTSqaoapA/s852/kolor-screenshot.jpg
+
+## Support & Development
+
+Feel free to report any problems, or contribute or develop ports. I'll be happy to continue to support the theme.

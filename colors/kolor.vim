@@ -17,7 +17,7 @@
 "
 " Name: Kolor
 " Author: Alessandro Di Martino
-" Version: 1.2.0
+" Version: 1.3.0
 " URL: https://github.com/zeis/vim-kolor
 " License: MIT License (see end of this file)
 "
@@ -51,65 +51,65 @@ endif
 let g:colors_name='kolor'
 
 highlight Normal          guifg=#c6c6c6    guibg=#2e2d2b    gui=none
-highlight SpecialKey      guifg=#87afff    guibg=NONE       gui=none
-highlight NonText         guifg=#87afff    guibg=#2e2d2b    gui=none
+highlight SpecialKey      guifg=#7eaefd    guibg=NONE       gui=none
+highlight NonText         guifg=#7eaefd    guibg=#2e2d2b    gui=none
 highlight Directory       guifg=#e6987a    guibg=NONE       gui=none
-highlight ErrorMsg        guifg=#d9738d    guibg=NONE       gui=bold
+highlight ErrorMsg        guifg=#d96e8a    guibg=NONE       gui=bold
 highlight IncSearch       guifg=#000000    guibg=#ff5fd7    gui=none
-highlight Search          guifg=#ff8700    guibg=NONE       gui=bold
+highlight Search          guifg=#ff8901    guibg=NONE       gui=bold
 highlight MoreMsg         guifg=#8cd991    guibg=NONE       gui=bold
-highlight ModeMsg         guifg=#e4e4e4    guibg=NONE       gui=bold
+highlight ModeMsg         guifg=#e2e2e2    guibg=NONE       gui=bold
 highlight LineNr          guifg=#808080    guibg=#242322    gui=none
-highlight CursorLineNr    guifg=#e4e4e4    guibg=#3b3a37    gui=bold
-highlight Question        guifg=#73d9d9    guibg=NONE       gui=bold
-highlight StatusLine      guifg=#000000    guibg=#808080    gui=none
-highlight StatusLineNC    guifg=#9e9e9e    guibg=#4a4a4a    gui=none
+highlight CursorLineNr    guifg=#e2e2e2    guibg=#383734    gui=bold
+highlight Question        guifg=#75d7d8    guibg=NONE       gui=bold
+highlight StatusLine      guifg=#000000    guibg=#9e9e9e    gui=none
+highlight StatusLineNC    guifg=#b2b2b2    guibg=#4a4a4a    gui=none
 highlight VertSplit       guifg=#4a4a4a    guibg=#4a4a4a    gui=none
-highlight Title           guifg=#e4e4e4    guibg=NONE       gui=none
-highlight Visual          guifg=#e4e4e4    guibg=#5c5c5c    gui=none
-highlight VisualNOS       guifg=#e4e4e4    guibg=NONE       gui=underline
+highlight Title           guifg=#e2e2e2    guibg=NONE       gui=none
+highlight Visual          guifg=#e2e2e2    guibg=#5c5c5c    gui=none
+highlight VisualNOS       guifg=#e2e2e2    guibg=NONE       gui=underline
 highlight WarningMsg      guifg=#ff5fd7    guibg=NONE       gui=bold
-highlight WildMenu        guifg=#000000    guibg=#73d9d9    gui=none
+highlight WildMenu        guifg=#000000    guibg=#75d7d8    gui=none
 highlight Folded          guifg=#8787af    guibg=#242322    gui=none
 highlight FoldColumn      guifg=#8787af    guibg=#242322    gui=none
-highlight DiffAdd         guifg=NONE       guibg=#005f5f    gui=none
-highlight DiffChange      guifg=NONE       guibg=#000087    gui=none
-highlight DiffDelete      guifg=#875f87    guibg=#875f87    gui=none
-highlight DiffText        guifg=NONE       guibg=#005faf    gui=none
+highlight DiffAdd         guifg=NONE       guibg=#005154    gui=none
+highlight DiffChange      guifg=NONE       guibg=#4f3598    gui=none
+highlight DiffDelete      guifg=#d96e8a    guibg=#72323f    gui=none
+highlight DiffText        guifg=NONE       guibg=#00488e    gui=none
 highlight SignColumn      guifg=#808080    guibg=#2e2d2b    gui=none
 highlight Conceal         guifg=#c6c6c6    guibg=NONE       gui=none
-highlight SpellBad        guifg=NONE       guibg=NONE       gui=undercurl    guisp=#d9738d
-highlight SpellCap        guifg=NONE       guibg=NONE       gui=undercurl    guisp=#73d9d9
+highlight SpellBad        guifg=NONE       guibg=NONE       gui=undercurl    guisp=#d96e8a
+highlight SpellCap        guifg=NONE       guibg=NONE       gui=undercurl    guisp=#75d7d8
 highlight SpellRare       guifg=NONE       guibg=NONE       gui=undercurl    guisp=#8cd991
-highlight SpellLocal      guifg=NONE       guibg=NONE       gui=undercurl    guisp=#d9c673
+highlight SpellLocal      guifg=NONE       guibg=NONE       gui=undercurl    guisp=#dbc570
 highlight Pmenu           guifg=#c6c6c6    guibg=#242322    gui=none
-highlight PmenuSel        guifg=#000000    guibg=#87afff    gui=none
+highlight PmenuSel        guifg=#000000    guibg=#7eaefd    gui=none
 highlight PmenuSbar       guifg=#ff5fd7    guibg=#262626    gui=none
 highlight PmenuSbar       guifg=#ff5fd7    guibg=#2e2d2b    gui=none
 highlight PmenuThumb      guifg=#2e2d2b    guibg=#ff5fd7    gui=none
 highlight TabLine         guifg=#808080    guibg=#242322    gui=none
-highlight TablineSel      guifg=#000000    guibg=#808080    gui=none
+highlight TablineSel      guifg=#000000    guibg=#9e9e9e    gui=none
 highlight TablineFill     guifg=#808080    guibg=#242322    gui=none
-highlight CursorColumn    guifg=NONE       guibg=#3b3a37    gui=none
-highlight CursorLine      guifg=NONE       guibg=#3b3a37    gui=none
-highlight ColorColumn     guifg=NONE       guibg=#3b3a37    gui=none
-highlight Cursor          guifg=#000000    guibg=#e4e4e4    gui=none
-highlight lCursor         guifg=#000000    guibg=#e4e4e4    gui=none
+highlight CursorColumn    guifg=NONE       guibg=#383734    gui=none
+highlight CursorLine      guifg=NONE       guibg=#383734    gui=none
+highlight ColorColumn     guifg=NONE       guibg=#383734    gui=none
+highlight Cursor          guifg=#000000    guibg=#e2e2e2    gui=none
+highlight lCursor         guifg=#000000    guibg=#e2e2e2    gui=none
 highlight MatchParen      guifg=#2e2c29    guibg=#ff5fd7    gui=bold
 highlight Comment         guifg=#808080    guibg=NONE       gui=italic
 highlight Constant        guifg=#e6987a    guibg=NONE       gui=italic
-highlight Special         guifg=#d973d9    guibg=NONE       gui=none
-highlight Identifier      guifg=#73d9d9    guibg=NONE       gui=none
-highlight Statement       guifg=#d9738d    guibg=NONE       gui=bold
-highlight PreProc         guifg=#d9c673    guibg=NONE       gui=none
-highlight Type            guifg=#9d7ae6    guibg=NONE       gui=bold
-highlight Underlined      guifg=#87afff    guibg=NONE       gui=underline
-highlight Error           guifg=#d9738d    guibg=NONE       gui=bold
-highlight Todo            guifg=#73d9d9    guibg=NONE       gui=bold
-highlight String          guifg=#af8787    guibg=NONE       gui=italic
-highlight Number          guifg=#d9c673    guibg=NONE       gui=none
-highlight Function        guifg=#82d974    guibg=NONE       gui=none
-highlight Keyword         guifg=#d9738d    guibg=NONE       gui=bold
+highlight Special         guifg=#ce6bd0    guibg=NONE       gui=none
+highlight Identifier      guifg=#75d7d8    guibg=NONE       gui=none
+highlight Statement       guifg=#d96e8a    guibg=NONE       gui=bold
+highlight PreProc         guifg=#dbc570    guibg=NONE       gui=none
+highlight Type            guifg=#a080ea    guibg=NONE       gui=bold
+highlight Underlined      guifg=#7eaefd    guibg=NONE       gui=underline
+highlight Error           guifg=#d96e8a    guibg=NONE       gui=bold
+highlight Todo            guifg=#75d7d8    guibg=NONE       gui=bold
+highlight String          guifg=#ad8788    guibg=NONE       gui=italic
+highlight Number          guifg=#dbc570    guibg=NONE       gui=none
+highlight Function        guifg=#88da77    guibg=NONE       gui=none
+highlight Keyword         guifg=#d96e8a    guibg=NONE       gui=bold
 
 if &t_Co > 255
   highlight Normal          ctermfg=251     ctermbg=235     cterm=none
@@ -124,7 +124,7 @@ if &t_Co > 255
   highlight LineNr          ctermfg=244     ctermbg=234     cterm=none
   highlight CursorLineNr    ctermfg=254     ctermbg=236     cterm=bold
   highlight Question        ctermfg=80      ctermbg=none    cterm=bold
-  highlight StatusLine      ctermfg=0       ctermbg=244     cterm=none
+  highlight StatusLine      ctermfg=0       ctermbg=247     cterm=none
   highlight StatusLineNC    ctermfg=247     ctermbg=238     cterm=none
   highlight VertSplit       ctermfg=238     ctermbg=238     cterm=none
   highlight Title           ctermfg=254     ctermbg=none    cterm=none
@@ -135,8 +135,8 @@ if &t_Co > 255
   highlight Folded          ctermfg=103     ctermbg=234     cterm=none
   highlight FoldColumn      ctermfg=103     ctermbg=234     cterm=none
   highlight DiffAdd         ctermfg=none    ctermbg=23      cterm=none
-  highlight DiffChange      ctermfg=none    ctermbg=18      cterm=none
-  highlight DiffDelete      ctermfg=96      ctermbg=96      cterm=none
+  highlight DiffChange      ctermfg=none    ctermbg=56      cterm=none
+  highlight DiffDelete      ctermfg=168     ctermbg=96      cterm=none
   highlight DiffText        ctermfg=none    ctermbg=25      cterm=none
   highlight SignColumn      ctermfg=244     ctermbg=235     cterm=none
   highlight Conceal         ctermfg=251     ctermbg=none    cterm=none
@@ -149,7 +149,7 @@ if &t_Co > 255
   highlight PmenuSbar       ctermfg=206     ctermbg=235     cterm=none
   highlight PmenuThumb      ctermfg=235     ctermbg=206     cterm=none
   highlight TabLine         ctermfg=244     ctermbg=234     cterm=none
-  highlight TablineSel      ctermfg=0       ctermbg=244     cterm=none
+  highlight TablineSel      ctermfg=0       ctermbg=247     cterm=none
   highlight TablineFill     ctermfg=244     ctermbg=234     cterm=none
   highlight CursorColumn    ctermfg=none    ctermbg=236     cterm=none
   highlight CursorLine      ctermfg=none    ctermbg=236     cterm=none
