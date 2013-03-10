@@ -30,7 +30,11 @@ If you like `kolor.vim` follow the GitHub [repository][repository], and don't fo
 [script]: http://www.vim.org/scripts/script.php?script_id=4339
 [repository]: https://github.com/zeis/vim-kolor
 [screenshot]: https://lh5.googleusercontent.com/-z7CGCLXhTNQ/UM-4XPy52fI/AAAAAAAAAHo/iCFTSqaoapA/s852/kolor-screenshot.jpg
+[pkgbuild]: https://aur.archlinux.org/packages/vim-kolor/
+[graysky2]: https://github.com/graysky2
 
 ## Support & Development
 
-Feel free to report any problems, or contribute or develop ports. I'll be happy to continue to support the theme.
+Feel free to report any problems, or contribute or develop ports. I'll be happy to give my support.
+
+For Arch Linux users, there is also a [PKGBUILD][pkgbuild] available in the AUR, created by [graysky2][graysky2].
