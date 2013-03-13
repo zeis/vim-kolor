@@ -5,13 +5,26 @@ Colorful Vim color scheme with 256 color terminal support.
 
 Designed to have high text readability and optimal visibility of every element, and to be eye comfortable as well.
 
+![][screenshot]
+
 ## Installation
 
 Just copy `kolor.vim` to `~/.vim/colors` (on Windows `<your-vim-dir>\vimfiles\colors`). Or for global accessibility, `/usr/share/vim/vimfiles/colors`.
 
-Then add the line `colorscheme kolor` in your `vimrc` file, and restart Vim.
+Then add the line `colorscheme kolor` in your vimrc file, and restart Vim.
 
-If you use Pathogen, the directory structure is compatible.
+If you use Pathogen or Vundle, the directory structure is compatible.
+
+For Arch Linux users, there is also a [PKGBUILD][pkgbuild] available in the AUR, created by [graysky][graysky2].
+
+## Options
+
+You can put the following lines before `colorscheme kolor` in your vimrc.
+
+    let g:kolor_italic=1                    " Enable italic. Default: 1
+    let g:kolor_bold=1                      " Enable bold. Default: 1
+    let g:kolor_underlined=0                " Enable underline for 'Underlined'. Default: 0
+    let g:kolor_alternative_matchparen=0    " Gray 'MatchParen' color. Default: 0
 
 ## Donations
 
@@ -23,10 +36,6 @@ This color scheme is dedicated to them.
 
 If you like `kolor.vim` follow the GitHub [repository][repository], and don't forget to vote for it on Vim.org! ([vimscript #4339][script]).
 
-## Screenshots
-
-![][screenshot]
-
 [script]: http://www.vim.org/scripts/script.php?script_id=4339
 [repository]: https://github.com/zeis/vim-kolor
 [screenshot]: https://lh5.googleusercontent.com/-z7CGCLXhTNQ/UM-4XPy52fI/AAAAAAAAAHo/iCFTSqaoapA/s852/kolor-screenshot.jpg
@@ -35,6 +44,5 @@ If you like `kolor.vim` follow the GitHub [repository][repository], and don't fo
 
 ## Support & Development
 
-Feel free to report any problems, or contribute or develop ports. I'll be happy to give my support.
+Feel free to contribute, develop ports or report any problems. I'll be happy to give my support.
 
-For Arch Linux users, there is also a [PKGBUILD][pkgbuild] available in the AUR, created by [graysky2][graysky2].
