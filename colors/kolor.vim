@@ -96,8 +96,15 @@ highlight ColorColumn     guifg=NONE       guibg=#383734    gui=none
 highlight Cursor          guifg=#000000    guibg=#e2e2e2    gui=none
 highlight lCursor         guifg=#000000    guibg=#e2e2e2    gui=none
 highlight MatchParen      guifg=#2e2c29    guibg=#ff5fd7    gui=bold
-highlight Comment         guifg=#808080    guibg=NONE       gui=italic
-highlight Constant        guifg=#e6987a    guibg=NONE       gui=italic
+if exists("g:kolor_disable_italics")
+    highlight Comment         guifg=#808080    guibg=NONE       gui=none
+    highlight Constant        guifg=#e6987a    guibg=NONE       gui=none
+    highlight String          guifg=#ad8788    guibg=NONE       gui=none
+else
+    highlight Comment         guifg=#808080    guibg=NONE       gui=italic
+    highlight Constant        guifg=#e6987a    guibg=NONE       gui=italic
+    highlight String          guifg=#ad8788    guibg=NONE       gui=italic
+endif
 highlight Special         guifg=#ce6bd0    guibg=NONE       gui=none
 highlight Identifier      guifg=#75d7d8    guibg=NONE       gui=none
 highlight Statement       guifg=#d96e8a    guibg=NONE       gui=bold
@@ -106,7 +113,6 @@ highlight Type            guifg=#a080ea    guibg=NONE       gui=bold
 highlight Underlined      guifg=#7eaefd    guibg=NONE       gui=underline
 highlight Error           guifg=#d96e8a    guibg=NONE       gui=bold
 highlight Todo            guifg=#75d7d8    guibg=NONE       gui=bold
-highlight String          guifg=#ad8788    guibg=NONE       gui=italic
 highlight Number          guifg=#dbc570    guibg=NONE       gui=none
 highlight Function        guifg=#88da77    guibg=NONE       gui=none
 highlight Keyword         guifg=#d96e8a    guibg=NONE       gui=bold
