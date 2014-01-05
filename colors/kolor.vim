@@ -15,50 +15,50 @@
 "
 "
 "
-" Name: Kolor
-" Author: Alessandro Di Martino
-" Version: 1.4.0
+" Name: kolor
+" Author: Alessandro Di Martino <aledimax@gmail.com>
+" Version: 1.4.1
 " URL: https://github.com/zeis/vim-kolor
-" License: MIT License
+" License: MIT
 "
 " --------------------------------------------------------------------------
 " DESCRIPTION
 " --------------------------------------------------------------------------
 " Colorful Vim color scheme with 256 color terminal support.
-" Designed to have high text readability and optimal visibility of every
-" element, and to be eye comfortable as well.
+" Designed for high readability and optimal visibility of every element,
+" and to be eye comfortable as well.
 "
 " --------------------------------------------------------------------------
 " INSTALLATION
 " --------------------------------------------------------------------------
-" Copy kolor.vim to ~/.vim/colors (on Windows <your-vim-dir>\vimfiles\colors).
+" Copy kolor.vim to ~/.vim/colors (on Win <your-vim-dir>\vimfiles\colors).
 " Then add the line "colorscheme kolor" in your vimrc file, and restart Vim.
-" If you use Pathogen or Vundle the directory structure is compatible.
 "
 " --------------------------------------------------------------------------
 " OPTIONS
 " --------------------------------------------------------------------------
-" You can put the following lines before "colorscheme kolor" in your vimrc.
+" Options must be set before the line "colorscheme kolor" in your vimrc.
 "
-" let g:kolor_italic=1 " Enable italic. Default: 1
-" let g:kolor_bold=1 " Enable bold. Default: 1
-" let g:kolor_underlined=0 " Enable underline for 'Underlined'. Default: 0
+" let g:kolor_italic=1                 " Enable italic. Default: 1
+" let g:kolor_bold=1                   " Enable bold. Default: 1
+" let g:kolor_underlined=0             " Enable underline. Default: 0
 " let g:kolor_alternative_matchparen=0 " Gray 'MatchParen' color. Default: 0
 "
 " --------------------------------------------------------------------------
 " DONATIONS
 " --------------------------------------------------------------------------
-" If you want to make a donation, rather, consider to help the Uganda children
-" on Vim's website.
-" This color scheme is dedicated to them.
+" This color scheme is dedicated to the the Ugandan children (see Vim's
+" website).
+" How about donating to them? (http://iccf-holland.org/click5.html).
+" And, if you donate, please, let me know.
 
 
 highlight clear
 set background=dark
-if exists('syntax_on')
+if exists("syntax_on")
     syntax reset
 endif
-let g:colors_name='kolor'
+let g:colors_name="kolor"
 
 
 if !exists("g:kolor_bold")
@@ -83,7 +83,6 @@ highlight LineNr          guifg=#808080    guibg=#242322    gui=none
 highlight StatusLine      guifg=#000000    guibg=#9e9e9e    gui=none
 highlight StatusLineNC    guifg=#b2b2b2    guibg=#4a4a4a    gui=none
 highlight VertSplit       guifg=#4a4a4a    guibg=#4a4a4a    gui=none
-highlight Title           guifg=#e2e2e2    guibg=NONE       gui=none
 highlight Visual          guifg=#e2e2e2    guibg=#5c5c5c    gui=none
 highlight VisualNOS       guifg=#e2e2e2    guibg=NONE       gui=underline
 highlight WildMenu        guifg=#000000    guibg=#75d7d8    gui=none
@@ -117,6 +116,8 @@ highlight Identifier      guifg=#75d7d8    guibg=NONE       gui=none
 highlight PreProc         guifg=#dbc570    guibg=NONE       gui=none
 highlight Number          guifg=#dbc570    guibg=NONE       gui=none
 highlight Function        guifg=#88da77    guibg=NONE       gui=none
+highlight htmlEndTag      guifg=#88da77    guibg=NONE       gui=none
+highlight xmlEndTag       guifg=#88da77    guibg=NONE       gui=none
 if g:kolor_bold==0
   highlight ErrorMsg        guifg=#d96e8a    guibg=NONE       gui=none
   highlight Search          guifg=#ff8901    guibg=NONE       gui=none
@@ -130,6 +131,7 @@ if g:kolor_bold==0
   highlight Error           guifg=#d96e8a    guibg=NONE       gui=none
   highlight Todo            guifg=#75d7d8    guibg=NONE       gui=none
   highlight Keyword         guifg=#d96e8a    guibg=NONE       gui=none
+  highlight Title           guifg=#a080ea    guibg=NONE       gui=none
   if g:kolor_alternative_matchparen==0
     highlight MatchParen      guifg=#2e2c29    guibg=#ff5fd7    gui=none
   else
@@ -148,6 +150,7 @@ else
   highlight Error           guifg=#d96e8a    guibg=NONE       gui=bold
   highlight Todo            guifg=#75d7d8    guibg=NONE       gui=bold
   highlight Keyword         guifg=#d96e8a    guibg=NONE       gui=bold
+  highlight Title           guifg=#a080ea    guibg=NONE       gui=bold
   if g:kolor_alternative_matchparen==0
     highlight MatchParen      guifg=#2e2c29    guibg=#ff5fd7    gui=bold
   else
@@ -179,7 +182,6 @@ if &t_Co > 255
   highlight StatusLine      ctermfg=0       ctermbg=247     cterm=none
   highlight StatusLineNC    ctermfg=247     ctermbg=238     cterm=none
   highlight VertSplit       ctermfg=238     ctermbg=238     cterm=none
-  highlight Title           ctermfg=254     ctermbg=none    cterm=none
   highlight Visual          ctermfg=254     ctermbg=240     cterm=none
   highlight VisualNOS       ctermfg=254     ctermbg=none    cterm=underline
   highlight WildMenu        ctermfg=0       ctermbg=80      cterm=none
@@ -214,6 +216,8 @@ if &t_Co > 255
   highlight String          ctermfg=138     ctermbg=none    cterm=none
   highlight Number          ctermfg=186     ctermbg=none    cterm=none
   highlight Function        ctermfg=114     ctermbg=none    cterm=none
+  highlight htmlEndTag      ctermfg=114     ctermbg=none    cterm=none
+  highlight xmlEndTag       ctermfg=114     ctermbg=none    cterm=none
   if g:kolor_bold==0
     highlight ErrorMsg        ctermfg=168     ctermbg=none    cterm=none
     highlight Search          ctermfg=208     ctermbg=none    cterm=none
@@ -227,6 +231,7 @@ if &t_Co > 255
     highlight Error           ctermfg=168     ctermbg=none    cterm=none
     highlight Todo            ctermfg=80      ctermbg=none    cterm=none
     highlight Keyword         ctermfg=168     ctermbg=none    cterm=none
+    highlight Title           ctermfg=141     ctermbg=none    cterm=none
     if g:kolor_alternative_matchparen==0
       highlight MatchParen      ctermfg=235     ctermbg=206     cterm=none
     else
@@ -245,6 +250,7 @@ if &t_Co > 255
     highlight Error           ctermfg=168     ctermbg=none    cterm=bold
     highlight Todo            ctermfg=80      ctermbg=none    cterm=bold
     highlight Keyword         ctermfg=168     ctermbg=none    cterm=bold
+    highlight Title           ctermfg=141     ctermbg=none    cterm=bold
     if g:kolor_alternative_matchparen==0
       highlight MatchParen      ctermfg=235     ctermbg=206     cterm=bold
     else
@@ -257,4 +263,3 @@ if &t_Co > 255
     highlight Underlined      ctermfg=111     ctermbg=none    cterm=underline
   endif
 end
-
