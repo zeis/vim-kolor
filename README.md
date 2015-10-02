@@ -27,9 +27,9 @@ let g:kolor_alternative_matchparen=0    " Gray 'MatchParen' color. Default: 0
 
 ## Donations
 
-This color scheme is dedicated to the the Ugandan children (see Vim's website).
+This color scheme is dedicated to the Ugandan children (see Vim's website).
 
-How about donating to [them](http://iccf-holland.org/click5.html)?. And, if you donate, please, let me know.
+How about donating to [them](http://iccf-holland.org/click5.html)? And if you donate, please, let me know.
 
 ## Self-promotion
 
