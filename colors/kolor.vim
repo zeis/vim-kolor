@@ -233,9 +233,9 @@ if &t_Co > 255
     highlight Keyword         ctermfg=168     ctermbg=none    cterm=none
     highlight Title           ctermfg=141     ctermbg=none    cterm=none
     if g:kolor_alternative_matchparen==0
-      highlight MatchParen      ctermfg=235     ctermbg=206     cterm=none
+      highlight MatchParen      ctermfg=255     ctermbg=125     cterm=none
     else
-      highlight MatchParen      ctermfg=235     ctermbg=247     cterm=none
+      highlight MatchParen      ctermfg=251     ctermbg=241     cterm=none
     endif
   else
     highlight ErrorMsg        ctermfg=168     ctermbg=none    cterm=bold
@@ -252,9 +252,9 @@ if &t_Co > 255
     highlight Keyword         ctermfg=168     ctermbg=none    cterm=bold
     highlight Title           ctermfg=141     ctermbg=none    cterm=bold
     if g:kolor_alternative_matchparen==0
-      highlight MatchParen      ctermfg=235     ctermbg=206     cterm=bold
+      highlight MatchParen      ctermfg=255     ctermbg=125     cterm=bold
     else
-      highlight MatchParen      ctermfg=235     ctermbg=247     cterm=bold
+      highlight MatchParen      ctermfg=251     ctermbg=241     cterm=bold
     endif
   endif
   if g:kolor_underlined==0
