@@ -25,8 +25,7 @@
 " DESCRIPTION
 " --------------------------------------------------------------------------
 " Colorful Vim color scheme with 256 color terminal support.
-" Designed for high readability and optimal visibility of every element,
-" and to be eye comfortable as well.
+" Designed for optimal visibility and comfort.
 "
 " --------------------------------------------------------------------------
 " INSTALLATION
@@ -39,18 +38,26 @@
 " --------------------------------------------------------------------------
 " Options must be set before the line "colorscheme kolor" in your vimrc.
 "
-" let g:kolor_italic=1                 " Enable italic. Default: 1
-" let g:kolor_bold=1                   " Enable bold. Default: 1
-" let g:kolor_underlined=0             " Enable underline. Default: 0
-" let g:kolor_alternative_matchparen=0 " Gray 'MatchParen' color. Default: 0
+" Enable italic. Default: 1
+" let g:kolor_italic=1
+"
+" Enable bold. Default: 1
+" let g:kolor_bold=1
+"
+" Enable underline. Default: 0
+" let g:kolor_underlined=0
+"
+" Gray 'MatchParen' color. Default: 0
+" let g:kolor_alternative_matchparen=0
+"
+" White foreground 'MatchParen' color that might work better with some terminals. Default: 0
+" let g:kolor_inverted_matchparen=0
 "
 " --------------------------------------------------------------------------
 " DONATIONS
 " --------------------------------------------------------------------------
-" This color scheme is dedicated to the the Ugandan children (see Vim's
-" website).
-" How about donating to them? (http://iccf-holland.org/click5.html).
-" And, if you donate, please, let me know.
+" This color scheme is dedicated to the the Ugandan children (How about
+" donating to them? see Vim's website).
 
 
 highlight clear
