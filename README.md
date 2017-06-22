@@ -42,4 +42,3 @@ This color scheme is dedicated to the the Ugandan children (How about donating t
 ## Self-promotion
 
 If you like _vim-kolor_ don't forget to rate it! (Vimscript [#4339](http://www.vim.org/scripts/script.php?script_id=4339)).
-
