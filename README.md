@@ -35,6 +35,10 @@ let g:kolor_alternative_matchparen=0
 let g:kolor_inverted_matchparen=0
 ```
 
+## Font styles
+In the event that font styles are needed by name, here is what the different styles looks like:
+![Font styles](font-styles.png)
+
 ## Donations
 
 This color scheme is dedicated to the the Ugandan children (How about donating to them? See Vim's website).
